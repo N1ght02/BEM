@@ -1,0 +1,96 @@
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  
+}
+
+.user {
+  width: 135px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  float: left;
+  margin-right: 10px;
+}
+
+.user--dark-theme {
+  background: #222222;
+}
+
+.user--dark-theme .text__name {
+  color: #ffffff;
+
+}
+
+.user--dark-theme .user__foto {
+  box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.35);
+}
+
+
+.user--purple-theme {
+  background: #79047d;
+}
+
+.user--purple-theme .text__name {
+  color: #ffffff;
+
+}
+
+.user--purple-theme .user__foto {
+  box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.35);
+}
+
+
+.user--green-theme {
+  background: #047d20;
+}
+
+.user--green-theme .text__name {
+  color: #ffffff;
+
+}
+
+.user--green-theme .user__foto {
+  box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.35);
+}
+
+
+.user__foto {
+    width: 100%;
+    display: block;
+    border-radius: inset 0 2px 2px rgba(0, 0, 0, 0.35);
+  }
+
+.text__name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
+.button {
+  width: 100%;
+  color: #222222;
+  background: #cccccc;
+  padding: 7px 12px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.40);
+}
+
+.button--primary {
+  background: #2388e1;
+  color: #ffffff;
+}
+
+.button--warning {
+  background: #f00800;
+  color: #ffffff;
+}
